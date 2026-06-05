@@ -436,8 +436,17 @@
 			owner: "player",
 			type: "talk",
 			text: [
-				{ value: "vsfrnpcs:dialogue-orario-axel-thanks", jumpTo: "teleport" }
+				{ value: "vsfrnpcs:dialogue-orario-axel-thanks", jumpTo: "setrole" }
 			],
+		},		
+		{
+			code: "setrole",
+			setVariables: {"player.hasfinishedjail": "true"},
+ 		    trigger: "setRole",
+      		triggerData: {
+        		role: "suplayer"
+    		},
+      		jumpTo: "teleport"
 		},
 		{
 			code: "teleport",
@@ -446,15 +455,6 @@
         		x: "0",
 				y: "182",
         		z: "0"
-    		},
-      		jumpTo: "setrole"
-		},
-		{
-			code: "setrole",
-			setVariables: {"player.hasfinishedjail": "true"},
- 		    trigger: "setrole",
-      		triggerData: {
-        		role: "suplayer"
     		},
       		jumpTo: "close"
 		},
