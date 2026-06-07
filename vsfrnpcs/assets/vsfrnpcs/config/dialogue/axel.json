@@ -24,7 +24,7 @@
 			type: "condition",
 			variable: "player.hasfinishedjail",
 			isNotValue: "true",
-			thenJumpTo: "goodanswer2",
+			thenJumpTo: "goodfanswer2",
 			elseJumpTo: "testhasmet"
 		},
 		{
@@ -521,7 +521,6 @@
 		{
 			code: "leave",
 			owner: "player",
-			setVariables: {"entity.hasmet": "true"},
 			type: "talk",
 			text: [
 				{ value: "vsfrnpcs:dialogue-orario-axel-leave", jumpTo: "close" },
@@ -538,9 +537,7 @@
 		},
         {
 			code: "guidetoexit",
-			
 			type: "talk",
-            setVariables: {"entity.hasmet": "true"},
 			text: [
 				{ value: "vsfrnpcs:dialogue-orario-axel-guidetoexit", jumpTo:"thxforguidance" },
 			]
@@ -555,7 +552,6 @@
 		},
         {
 			code: "firstmeet4",
-			
 			type: "talk",
             setVariables: {"entity.hasmet": "true"},
 			text: [
@@ -589,7 +585,6 @@
 		},
 		{
 			code: "hasnotmetmarie",
-			
 			type: "talk",
             
 			text: [

@@ -1,17 +1,15 @@
 {
-	$schema: "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
-	type: "Code",
-	name: "Vintage Story FR - NPCs",
-	version: "1.0.0",
-	description: "Adds content NPCs to VSFR server",
-	modID: "vsfrnpcs",
-	authors: [ "Fox", "Psyloh" ],
-	contributors: [],
-	side: "Universal",
-	requiredOnClient: true,
-	requiredOnServer: true,
-	dependencies: {
-		game: "1.22.2",
-		//alegacyvsquest: "2.4.1"
+	"type": "Code",
+	"name": "Vintage Story FR - NPCs",
+	"version": "1.0.2",
+	"description": "Adds content NPCs to VSFR server",
+	"modID": "vsfrnpcs",
+	"authors": [ "Fox", "Psyloh" ],
+	"contributors": [],
+	"side": "Universal",
+	"requiredOnClient": true,
+	"requiredOnServer": true,
+	"dependencies": {
+		"game": "1.22.2"
 	}
 }

@@ -1,6 +1,6 @@
-{
+[{
   id: "vsfrnpcs:quest-psyloh-drinkardgroup",
-  cooldown: -1,
+  cooldown: 900,
   perPlayer: true,
   onAcceptedActions: [
     {
@@ -23,3 +23,4 @@
     }
   ]
 }
+]
