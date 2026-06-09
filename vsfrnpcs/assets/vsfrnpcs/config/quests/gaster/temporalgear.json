@@ -12,7 +12,7 @@
   ],
   gatherObjectives: [
     {
-      validCodes: [ "temporal-gear" ],
+      validCodes: [ "gear-temporal" ],
       demand: 1
     }
   ],
